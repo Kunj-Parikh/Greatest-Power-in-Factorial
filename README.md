@@ -1,0 +1,1 @@
+# Greatest-Power-in-Factorial
