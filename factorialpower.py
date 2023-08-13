@@ -1,13 +1,10 @@
-# Store power in a variable
-# While 2 raised to the power is less than 
-# 
-# For 100!, divide it by 2. Then, with 100/2, divide it further, adding it to the virtual count.
-# Stop dividing until the factorial is less than 1.
 import math
 
 def calculateMaxPower(base, FACTORIAL):
-    # base = int(input("Greatest power of: "))
-    # FACTORIAL = int(input("What is the factorial? "))
+    
+    # Notice that you have to divide the factorial by the power to get the multiple of the base raised to the n+1 power.
+    # Therefore, divide the factorial repeatedly until it is equal to 1, at which point return the total. 
+    
     numToBeDividedTillOne = FACTORIAL
     total = 0
     while numToBeDividedTillOne > 1:
